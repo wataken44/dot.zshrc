@@ -1,6 +1,9 @@
 
 # aliases
-alias emacs="/usr/local/Cellar/emacs/24.1/Emacs.app/Contents/MacOS/Emacs -nw"
+if [ -e '/usr/local//Cellar/emacs/24.1/Emacs.app/Contents/MacOS/Emacs' ]; then
+    # Mac OS X only
+    alias emacs="/usr/local/Cellar/emacs/24.1/Emacs.app/Contents/MacOS/Emacs -nw"
+fi 
 alias la="ls -a"
 alias ll="ls -l"
 
