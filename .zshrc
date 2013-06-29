@@ -95,3 +95,5 @@ linux*)
   ;;
 esac
 
+# path setting
+export PATH=/usr/local/bin:$PATH
