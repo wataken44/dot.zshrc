@@ -98,5 +98,6 @@ linux*)
   ;;
 esac
 
-# path setting
+# environment variables
 export PATH=/usr/local/bin:$PATH
+export CYGWIN=nodosfilewarning
