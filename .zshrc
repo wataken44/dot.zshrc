@@ -1,4 +1,8 @@
 
+# environment variables
+export PATH=/usr/local/bin:/usr/bin:$PATH
+export CYGWIN=nodosfilewarning
+
 # aliases
 if [ -e '/usr/local//Cellar/emacs/24.1/Emacs.app/Contents/MacOS/Emacs' ]; then
     # Mac OS X only
@@ -98,6 +102,3 @@ linux*)
   ;;
 esac
 
-# environment variables
-export PATH=/usr/local/bin:$PATH
-export CYGWIN=nodosfilewarning
