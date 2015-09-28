@@ -1,6 +1,6 @@
 
 # environment variables
-export PATH=/usr/local/bin:/usr/bin:$PATH
+export PATH=/usr/local/bin:/usr/bin:$HOME/bin:$PATH
 export CYGWIN=nodosfilewarning
 
 # aliases
